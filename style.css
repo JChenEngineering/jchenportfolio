@@ -1,0 +1,182 @@
+/*page structure (font, body, navigation, footer)*/
+html {
+    scroll-behavior: smooth;
+}
+
+.quicksand-300 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 70px;
+}
+
+nav {
+    margin: 0px;
+    padding: 25px;
+    background-color: #37445c;
+    font-family: "Quicksand", sans-serif;
+
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+footer {
+    background-color: #37445c;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-footer {
+    max-width: 500px;
+    margin: 20px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 1.1;
+}
+
+.reach-out {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*content structure (paragraphs, headings, etc.)*/
+p {
+    font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+    font-family: "Gelasio", serif;
+}
+
+a,
+a:visited,
+a:link {
+    color: #b8c3d7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+ul {
+    font-family: "Quicksand", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 22px;
+}
+
+li {
+    font-family: "Quicksand", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.indent {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/*home page*/
+.home {
+    background-image: url("images/home-background.jpg");
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.contact-card {
+    background-color: white;
+    color: #37445c;
+    max-width: 350px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.home > .heading {
+    color: white;
+}
+
+.profile-picture {
+    width: 200px; 
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/*projects on home page*/
+.projects {
+    background-color: #37445c;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/*education + experiences on home page*/
+#education-experience {
+    background-color: white;
+    color: black;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.timeline {
+    border-left: 2px solid #000000;
+    height: 50%;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 1.65;
+    padding-bottom: 0px;
+}
+
+.timeline-cooper, .timeline-aviation, .timeline-molex, .timeline-penguineering-college, .timeline-loisaida, .timeline-amt, .timeline-penguineering-highschool {
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 0px;
+    padding-bottom: 0px
+}
+
+/*about me page*/
+.about-me-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.about-me {
+    font-size: 18px;
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+.about-me-image {
+    border-radius: 25px;
+    margin-top: 95px;
+}
