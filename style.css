@@ -42,13 +42,13 @@ footer {
 }
 
 .container-footer {
-    max-width: 500px;
+    max-width: 700px;
     margin: 20px auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 0;
-    padding-bottom: 0;
     line-height: 1.1;
+
+    display: flex;
+    justify-content: center;
+    gap: 55px;
 }
 
 .reach-out {
@@ -104,22 +104,37 @@ li {
 .home {
     background-image: url("images/home-background.jpg");
     background-size: cover;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 200px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 80px;
 }
 
 .contact-card {
-    background-color: white;
+    background-color: #f1f1f1;
     color: #37445c;
-    max-width: 350px;
-    margin: 0 auto;
-    padding-top: 25px;
-    padding-bottom: 20px;
+    margin: 50 auto;
+    width: 350px;
+    padding-top: 35px;
+    padding-bottom: 70px;
     text-align: center;
 }
 
 .home > .heading {
     color: white;
+    line-height: 0;
+    align-content: center;
+}
+
+.heading h3 {
+    font-size: 110px;
+}
+
+.heading h4 {
+    font-size: 30px;
 }
 
 .profile-picture {
@@ -127,6 +142,24 @@ li {
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.download-my-resume-button {
+    border: none;
+    background-color: #bec7d5;
+    color: #37445c;
+
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+}
+
+.download-my-resume-text {
+    font-size: 20px;
 }
 
 /*projects on home page*/
@@ -160,6 +193,84 @@ li {
     padding-bottom: 0px
 }
 
+.timeline > div {
+    position: relative; 
+}
+
+.timeline > div::before {         /*the dot*/
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color: #000000;
+    border-radius: 50%;
+
+    left: -25.5px;
+    top: 30px; 
+}
+
+/*projects page*/
+h2 {
+    font-family: "Quicksand", sans-serif;
+}
+
+.projects-mechanical-rectifier {
+    padding-top: 50px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid gray;
+}
+
+.projects-scale {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid gray;
+}
+
+.projects-vending-machine {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.projects-mechanical-rectifier-flexbox {
+    display: flex;
+    gap: 25px;
+    line-height: 1.5;
+    align-items: center;
+}
+
+.projects-mechanical-rectifier-picture {
+    max-width: 40%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.projects-scale-flexbox {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 25px;
+    line-height: 1.5;
+    align-items: center;
+}
+
+.projects-scale-picture {
+    max-width: 50%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+.projects-vending-machine-flexbox {
+    display: flex;
+    gap: 25px;
+    line-height: 1.5;
+    align-items: center;
+}
+
+.projects-vending-machine-picture {
+    padding-top: 20px;
+    max-width: 40%;
+    height: auto;
+}
+
 /*about me page*/
 .about-me-container {
     max-width: 1000px;
@@ -173,10 +284,11 @@ li {
     font-size: 18px;
     display: flex;
     gap: 40px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .about-me-image {
     border-radius: 25px;
-    margin-top: 95px;
+    margin-top: 75px;
+    scale: 95%;
 }
