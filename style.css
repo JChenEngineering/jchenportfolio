@@ -56,6 +56,10 @@ nav {
     background-color: #37445c;
     font-family: "Quicksand", sans-serif;
 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
     display: flex;
     justify-content: center;
     gap: 100px;
@@ -83,6 +87,30 @@ footer {
     font-size: 30px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.footer-graphics {
+    padding-top: 15px;
+}
+
+.social-graphics-footer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-graphics > .social-graphics-footer a {
+    color: #000000;
+    font-size: 35px;
+
+    cursor: pointer;
+    transition: background-color 2s ease;
+
+    padding-top: 30px;
+}
+
+.social-graphics-footer a:hover {
+    color: #9b9696;
 }
 
 /*content structure (paragraphs, headings, etc.)*/
@@ -132,7 +160,8 @@ li {
 .home {
     background-image: url("images/home-background.jpg");
     background-size: cover;
-    padding-top: 100px;
+    background-attachment: fixed;
+    padding-top: 80px;
     padding-bottom: 200px;
 
     display: flex;
@@ -147,12 +176,36 @@ li {
     margin: 50 auto;
     width: 350px;
     padding-top: 35px;
-    padding-bottom: 70px;
+    padding-bottom: 60px;
     text-align: center;
 }
 
 .contact-card p {
+    color: #4e4c4c;
+    font-size: 16px;
+    line-height: .8;
     font-family: "Bodoni Moda", serif;
+}
+
+.social-graphics {
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.social-graphics a {
+    color:#4e4c4c;
+    font-size: 35px;
+
+    cursor: pointer;
+    transition: background-color 2s ease;
+}
+
+.social-graphics a:hover {
+    color: #a6acb8;
 }
 
 .home > .heading {
@@ -176,6 +229,8 @@ li {
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
+
+    padding-bottom: 5px;
 }
 
 a.download-my-resume-button {
@@ -192,7 +247,7 @@ a.download-my-resume-button {
     font-size: 15px;
 
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 
     display: inline-block;
     text-decoration: none;
@@ -319,7 +374,7 @@ h2 {
 
 a.projects-mechanical-rectifier, a.projects-scale, a.projects-vending-machine {
     color: aqua;
-}
+} /*NEED TO FIGURE OUT LINK COLOR ON PROJECTS PAGE*/
 
 /*about me page*/
 .about-me-container {
