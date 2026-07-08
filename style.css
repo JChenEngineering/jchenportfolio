@@ -178,6 +178,8 @@ li {
     padding-top: 35px;
     padding-bottom: 60px;
     text-align: center;
+
+    box-shadow: -5px 10px 20px rgba(0, 0, 0, 1);
 }
 
 .contact-card p {
