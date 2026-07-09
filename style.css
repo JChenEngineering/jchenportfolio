@@ -125,7 +125,7 @@ h1 {
 a,
 a:visited,
 a:link {
-    color: #b8c3d7;
+    color: #b8c7d7;
     text-decoration: none;
 }
 
@@ -398,4 +398,80 @@ a.projects-mechanical-rectifier, a.projects-scale, a.projects-vending-machine {
     border-radius: 25px;
     margin-top: 75px;
     scale: 95%;
+}
+
+/*mechanical rectifier page*/
+.mechanical-rectifier {
+    padding-top: 30px;
+    padding-bottom: 70px;
+
+    line-height: 1.6;
+}
+
+.mechanical-rectifier-1 {
+    display: flex;
+}
+
+.mechanical-rectifier-videos {
+    padding-top: 30px;
+}
+
+.video-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.video-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    padding-bottom: 30px;
+}
+
+.video-container {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    flex: 1;
+    min-width: 250px;
+}
+
+.video-container iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.arrow {
+    font-size: 25px;
+    color: #4e4c4c;
+    align-self: center;
+    padding-bottom: 25px;
+}
+
+/*scale page*/
+.scale {
+    padding-top: 30px;
+    padding-bottom: 70px;
+
+    line-height: 1.6;
+}
+
+.scale-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.scale-1 {
+    display: flex;
 }
