@@ -474,4 +474,55 @@ a.projects-mechanical-rectifier, a.projects-scale, a.projects-vending-machine {
 
 .scale-1 {
     display: flex;
+
+    padding-top: 20px;
+}
+
+/*vending machine page*/
+.vending-machine {
+    padding-top: 30px;
+    padding-bottom: 70px;
+
+    line-height: 1.6;
+}
+
+.vending-machine-sketches {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.vending-machine-schematic-image {
+    justify-content: center;    
+}
+
+.shorts-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.shorts-container {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    flex: 1;
+    min-width: 140px;
+    max-width: 180px;
+}
+
+.shorts-container iframe {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    border-radius: 10px;
+    border: none !important;
+    outline: none !important;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }

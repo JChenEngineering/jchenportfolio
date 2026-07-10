@@ -22,6 +22,64 @@
             <a href="about-me.html">ABOUT</a>
         </nav>
 
+        <section class="vending-machine">
+            <div class="container">
+                <h2><b>Vending Machine</b></h2>
+                
+                <p>To get more experience with Arduinos and microcontrollers, I started a personal passion project: designing and building a vending machine from scratch. Using an Arduino Uno, various electrical components, plywood, and some tools, I've been developing the entire system -- from the physical structure to the messages displayed on the screen.
+                    <br><br>
+                    This is a work-in-progress, and below is my work so far.</p>
+                    <br>
+
+                <h2>Rough Sketches</h2>
+
+                <div class="vending-machine-sketches">
+                    <img src="../images/vending-machine-sketch-1.jpg" alt="General Layout and Features of Vending Machine" width="30%">
+                    <img src="../images/vending-machine-sketch-2.jpg" alt="Overall Dimensions of Vending Machine (1)" width="30%">
+                    <img src="../images/vending-machine-sketch-3.jpg" alt="Overall Dimensions of Vending Machine (2)" width="30%">
+                </div>
+
+                <p style="text-align: center; font-size: 14px"><i>Click on each to view in detail</i></p>
+                <br>
+
+                <h2>Electrical Schematic</h2>
+                <img src="../images/vending-machine-schematic.jpg" alt="Electrical Schematic of Vending Machine" width="100%">
+                <br>
+
+                <div class="circuit-iteration">
+                    <h2>Circuit Iteration</h2>
+
+                    <div class="shorts-row">
+                        <div class="shorts-container">
+                            <iframe src="https://www.youtube.com/embed/PBnIoLKpufw?modestbranding=1&rel=0" allowfullscreen title="Iteration 1"></iframe>
+                            <div>Iteration 1</div>
+                        </div>
+                        <div class="arrow">→</div>
+                        <div class="shorts-container">
+                            <iframe src="https://www.youtube.com/embed/YITw_EEV4wM?modestbranding=1&rel=0" allowfullscreen title="Iteration 2"></iframe>
+                            <div>Iteration 2</div>
+                        </div>
+                        <div class="arrow">→</div>
+                        <div class="shorts-container">
+                            <iframe src="https://www.youtube.com/embed/28cEgTbe-z0?modestbranding=1&rel=0" allowfullscreen title="Iteration 3"></iframe>
+                            <div>Iteration 3</div>
+                        </div>
+                    </div>
+
+                    <p>In Iteration 1, only the IR sensor and LCD is wired up. In the video, I am testing the functionality of the sensor and seeing if it can detect the presence of a coin. Once it does, the counter goes up by $0.25. 
+                        <br><br>    
+                        Iteration 2 sees the integration of four buttons and a servo motor. Only one button is functional, however, and it simulates the user input aspect of the vending machine. Once the counter reaches the desired amount, $2.00, the motor begins to rotate.
+                        <br><br> 
+                        Lastly, in Iteration 3, I have removed unnecessary wiring from the buttons and added in all four motors. Each button represents a different item and they are all wired to their own, distinct servo motor.
+                    </p>
+                </div>
+                
+                <br>
+                <p>View the Arduino code for this project on <a href="https://github.com/JChenEngineering/vending-machine" target="_blank">Github</a>.</p>
+
+            </div>
+        </section>
+
         <footer>
             <div class="container-footer">
                 
