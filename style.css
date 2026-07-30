@@ -231,7 +231,6 @@ li {
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
-
     padding-bottom: 5px;
 }
 
@@ -317,6 +316,12 @@ h2 {
     font-family: "Quicksand", sans-serif;
 }
 
+.projects-automated-xy-vision-stage {
+    padding-top: 50px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid gray;
+}
+
 .projects-mechanical-rectifier {
     padding-top: 50px;
     padding-bottom: 35px;
@@ -334,6 +339,14 @@ h2 {
     padding-bottom: 35px;
 }
 
+.projects-automated-xy-vision-stage-flexbox {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 25px;
+    line-height: 1.5;
+    align-items: center;
+}
+
 .projects-mechanical-rectifier-flexbox {
     display: flex;
     gap: 25px;
@@ -344,7 +357,7 @@ h2 {
 .projects-mechanical-rectifier-picture {
     max-width: 40%;
     height: auto;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .projects-scale-flexbox {
@@ -358,7 +371,7 @@ h2 {
 .projects-scale-picture {
     max-width: 50%;
     height: 50%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .projects-vending-machine-flexbox {
@@ -398,6 +411,14 @@ a.projects-mechanical-rectifier, a.projects-scale, a.projects-vending-machine {
     border-radius: 25px;
     margin-top: 75px;
     scale: 95%;
+}
+
+/*automated xy vision stage page*/
+.automated-xy-vision-stage {
+    padding-top: 30px;
+    padding-bottom: 70px;
+
+    line-height: 1.6;
 }
 
 /*mechanical rectifier page*/
